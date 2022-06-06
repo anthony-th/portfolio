@@ -106,7 +106,7 @@ function changeTheme() {
 localStorage.setItem("greeted", true);
 
 if (localStorage.getItem("greeted") !== true) {
-  console.log(`Ув. проверяющий, не забывайте, что максимальное количество очков 85, а не 75. Проверяйте строго по написанным правилам https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part3.md https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md. Спасибо! p.s. работа не доделана(не сделан пункт 4 с доп. функционалом), так что максимального балла в 85 не получится, только в 80 =( Пока что только разбираюсь с localStorage( `);
+  console.log(`hi`);
 }
 
 
