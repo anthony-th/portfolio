@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./assets/favicons/favicon.ico">
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./styles/style.css">
+        <title data-i18="title">Portfolio</title>
+    </head>
+    <body class="fixed_page">
+        <header class="header">
+            <svg class="header__logo"></svg>
+                <nav class="header__list">
+                    <ul class="nav-list">
+                        <li class="nav-list__item">
+                            <a href="#skills-anchor" id="skills" data-i18="skills">skills</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#portfolio-anchor" id="portfolio" data-i18="portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#video-anchor" id="video" data-i18="video">video</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#price-anchor" id="price" data-i18="price">price</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#contacts-anchor" id="contacts" data-i18="contacts">contacts</a>
+                        </li>
+                   </ul>
+                   <ul class="switch_burger">
+                        <li class="lang-switch">
+                            <span class="lang-switch__en lang__btn lang-switch__active" data-lang="en">en</span>
+                            <span>/</span>
+                            <span class="lang-switch__ru lang__btn" data-lang="ru">ru</span>
+                        </li>
+                        <li>
+                            <svg class="switch_theme"></svg>
+                        </li>
+                        <li class="burger-menu" onclick="click">
+                            <hr class="burger-line"/>
+                            <hr class="burger-line"/>
+                            <hr class="burger-line"/>
+                        </li>
+                   </ul>
+                </nav>
+
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero__block">
+                    <h1 class="hero__title" data-i18="hero-title">Alexa Rise</h1>
+                    <p class="hero__text" data-i18="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+                    <button class="hero__btn" data-i18="hire">Hire me</button>
+                </div>
+            </section>
+            <section id="skills-anchor" class="skills">
+                <div class="skills__block">
+                    <hr class="section__line-title">
+                    <h2 class="skills__block-header" data-i18="skills">Skills</h2>
+                    <hr class="section__line-title">
+                </div>
+                <ul class="skills__block-list">
+                    <li class="skills__block-list-item">
+                        <img src="./assets/svg/camera.svg" alt="" class="skills__block-list-img">
+                        <h3 class="skills__block-list-header" data-i18="skill-title-1">Digital photography</h3>
+                        <p class="skills__block-list-text" data-i18="skill-text-1">High-quality photos in the studio and on the
+                            nature</p>
+                    </li>
+                    <li class="skills__block-list-item">
+                        <img src="./assets/svg/video.svg" alt="" class="skills__block-list-img">
+                        <h3 class="skills__block-list-header" data-i18="skill-title-2">Video shooting</h3>
+                        <p class="skills__block-list-text" data-i18="skill-text-2">Capture your moments so that they always stay
+                            with you</p>
+                    </li>
+                    <li class="skills__block-list-item">
+                        <img src="./assets/svg/image.svg" alt="" class="skills__block-list-img">
+                        <h3 class="skills__block-list-header" data-i18="skill-title-3">Rotouch</h3>
+                        <p class="skills__block-list-text" data-i18="skill-text-3">I strive to make photography surpass reality
+                        </p>
+                    </li>
+                    <li class="skills__block-list-item">
+                        <img src="./assets/svg/mic.svg" alt="" class="skills__block-list-img">
+                        <h3 class="skills__block-list-header" data-i18="skill-title-4">Audio</h3>
+                        <p class="skills__block-list-text" data-i18="skill-text-4">Professional sounds recording for video,
+                            advertising, portfolio
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section id="portfolio-anchor" class="portfolio">
+                <div class="skills__block">
+                    <hr class="section__line-title">
+                    <h2 class="skills__block-header" data-i18="portfolio">Portfolio</h2>
+                    <hr class="section__line-title">
+                </div>
+                <ul class="portfolio__btns">
+                    <li class="portfolio__btns-item">
+                        <button class="portfolio__btns-btn" data-season="winter" data-i18="winter">Winter</button>
+                    </li>
+                    <li class="portfolio__btns-item">
+                        <button class="portfolio__btns-btn" data-season="spring" data-i18="spring">Spring</button>
+                    </li>
+                    <li class="portfolio__btns-item">
+                        <button class="portfolio__btns-btn" data-season="summer" data-i18="summer">Summer</button>
+                    </li>
+                    <li class="portfolio__btns-item">
+                        <button class="portfolio__btns-btn portfolio__btn-active" data-season="autumn" data-i18="autumn">Autumn</button>
+                    </li>
+                </ul>
+                <div class="portfolio__album">
+                    <img src="./assets/img/autumn/1.jpg" alt="" class="portfolio__album-img">
+                    <img src="./assets/img/autumn/2.jpg" alt="" class="portfolio__album-img">
+                    <img src="./assets/img/autumn/3.jpg" alt="" class="portfolio__album-img">
+                    <img src="./assets/img/autumn/4.jpg" alt="" class="portfolio__album-img">
+                    <img src="./assets/img/autumn/5.jpg" alt="" class="portfolio__album-img">
+                    <img src="./assets/img/autumn/6.jpg" alt="" class="portfolio__album-img">
+                </div>
+            </section>
+            <section id="video-anchor" class="video">
+                <div class="skills__block">
+                    <hr class="section__line-title">
+                    <h2 class="skills__block-header" data-i18="video">Video</h2>
+                    <hr class="section__line-title">
+                </div>
+                <div class="video__block">
+                    <img src="./assets/img/video-player.jpg" alt="" class="video__block-img">
+                    <img src="./assets/svg/play-btn.svg" alt="" class="video__block__play-btn">
+                </div>
+            </section>
+            <section id="price-anchor" class="price">
+                <div class="skills__block">
+                    <hr class="section__line-title">
+                    <h2 class="skills__block-header" data-i18="price">Price</h2>
+                    <hr class="section__line-title">
+                </div>
+                <ul class="price__list">
+                    <li class="price__list-item">
+                        <h3 class="price__list-header" data-i18="standard">Standard</h3>
+                        <h4 class="price__list-price" data-i18="price_std">500 $</h4>
+                        <ul class="job_description__list">
+                            <li class="job_description__list-item" data-i18="price-description-1-span-1">One location</li>
+                            <li class="job_description__list-item" data-i18="price-description-1-span-2">120 photos in color</li>
+                            <li class="job_description__list-item" data-i18="price-description-1-span-3">12 photos in retouch</li>
+                            <li class="job_description__list-item" data-i18="price-description-1-span-4">Readiness 2-3 weeks</li>
+                            <li class="job_description__list-item" data-i18="price-description-1-span-5">Make up, visage</li>
+                        </ul>
+                        <button class="price__list-submit" data-i18="order">Order shooting</button>
+                    </li>
+                    <li class="price__list-item">
+                        <h3 class="price__list-header" data-i18="premium">Premium</h3>
+                        <h4 class="price__list-price" data-i18="price_prem">700 $</h4>
+                        <ul class="job_description__list">
+                            <li class="job_description__list-item" data-i18="price-description-2-span-1">One or two locations</li>
+                            <li class="job_description__list-item" data-i18="price-description-2-span-2">200 photos in color</li>
+                            <li class="job_description__list-item" data-i18="price-description-2-span-3">20 photos in retouch</li>
+                            <li class="job_description__list-item" data-i18="price-description-2-span-4">Readiness 1-2 weeks</li>
+                            <li class="job_description__list-item" data-i18="price-description-2-span-5">Make up, visage</li>
+                        </ul>
+                        <button class="price__list-submit" data-i18="order">Order shooting</button>
+                    </li>
+                    <li class="price__list-item">
+                        <h3 class="price__list-header" data-i18="gold">Gold</h3>
+                        <h4 class="price__list-price" data-i18="price_gold">1000 $</h4>
+                        <ul class="job_description__list">
+                            <li class="job_description__list-item" data-i18="price-description-3-span-1">Three locations or more</li>
+                            <li class="job_description__list-item" data-i18="price-description-3-span-2">300 photos in color</li>
+                            <li class="job_description__list-item" data-i18="price-description-3-span-3">50 photos in retouch</li>
+                            <li class="job_description__list-item" data-i18="price-description-3-span-4">Readiness 1 week</li>
+                            <li class="job_description__list-item" data-i18="price-description-3-span-5">Make up, visage, hairstyle</li>
+                        </ul>
+                        <button class="price__list-submit" data-i18="order">Order shooting</button>
+                    </li>
+                </ul>
+            </section>
+            <section id="contacts-anchor" class="contacts">
+                <form action="./index.html" class="contacts-form">
+                    <h2 class="contacts-form__block" data-i18="contact-me">Contact me</h2>
+                    <input type="email" placeholder="E-mail" class="contacts-form__block-email" data-i18="email">
+                    <input type="tel" placeholder="Phone" class="contacts-form__block-tel" data-i18="phone">
+                    <textarea placeholder="Message" class="contacts-form__block-message" data-i18="message_textarea"></textarea>
+                    <button type="submit" id="send-message" class="contacts-form__block-button" data-i18="send-message">Send message</button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__left">
+                <span class="footer__left-text">©</span>
+                <span class="footer__left-text">2022</span>
+                <span class="footer__left-text">
+                    <a href="https://github.com/anthony-th" data-i18="github">github</a>
+                </span>
+            </p>
+            <p class="footer__center">
+                <a href="https://rs.school/js-stage0/" data-i18="rolling">Rolling Scopes School</a>
+            </p>
+            <ul class="footer__links-list">
+                <li class="footer__links-list-item">
+                    <a href="https://twitter.com/">
+                        <img src="./assets/svg/tw.svg" class="social" alt="">
+                    </a>
+                </li>
+                <li class="footer__links-list-item">
+                    <a href="https://pinterest.com/">
+                        <img src="./assets/svg/pinterest.svg" class="social" alt="">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
